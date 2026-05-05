@@ -1,0 +1,23 @@
+
+# Playwright
+# Залежності (найважливіше!)
+node_modules/
+
+# Результати тестів (відео, скріншоти падінь)
+test-results/
+
+# Звіти (HTML репорти, які генеруються після тестів)
+playwright-report/
+blob-report/
+
+# Кеш браузерів та системні дані
+.playwright/
+.cache/
+
+# Специфічні файли macOS
+.DS_Store
+
+# Логи помилок npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
